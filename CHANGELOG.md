@@ -1,10 +1,26 @@
 <!-- insertion marker -->
 <a name="0.0.1"></a>
 
-## [0.0.1](https://github.com///compare/cc1a7952624fec288aa222a0a3a2cd9650a0625c...0.0.1) (2025-10-24)
+## [0.0.1](https://github.com///compare/cc1a7952624fec288aa222a0a3a2cd9650a0625c...0.0.1) (2025-10-25)
 
 ### Chore
 
+- add an uv file uv.lock ([9fabf3c](https://github.com///commit/9fabf3cf784444e786369b4d0f05059e8dc34368))
+- add psycopg2 and snowflake dependencies to requirements.txt ([e0b34da](https://github.com///commit/e0b34dae79df661ecccabec76761bfe49ee4e460))
+- add psycopg2 and snowflake dependencies to pyproject.toml ([4b4dcf6](https://github.com///commit/4b4dcf642cf3d54ebcc60c2fd729bb1c30dc97c9))
+- add foreign key checker and adder for PostgreSQL tables ([558be82](https://github.com///commit/558be82f27feeb6859645d9ac7cc1a71ea41ee52))
+- implement foreign key checker and dropper for PostgreSQL tables ([0ae5a7b](https://github.com///commit/0ae5a7b1aad78752113c674e4021a38a3c0c1fae))
+- implement PostgreSQL multiple tables setup with foreign key relationships ([01270d2](https://github.com///commit/01270d25f05763f5535020234788d004fe7d722d))
+- add PostgreSQL view querying functionality with SQLAlchemy ([502d3b2](https://github.com///commit/502d3b2ff346549821fa4317018f66cd802f328f))
+- add custom Snowflake ID generator with epoch and timestamp builders ([8a1c4cb](https://github.com///commit/8a1c4cbe5c159443f5240a7546665bdfd508a22c))
+- implement custom Snowflake ID generator with epoch and timestamp builders ([7afa873](https://github.com///commit/7afa8731b1b583855673d58a52c4d8aacbb89042))
+- implement Snowflake ID generator with epoch and timestamp builders ([e8adf26](https://github.com///commit/e8adf267794fb1cd7115baf1f9448fc7ec66853d))
+- implement Snowflake ID generator with customizable timestamp ([eb4716d](https://github.com///commit/eb4716dfe1c0bf8a1f38a6162804977591943e94))
+- add UUID generation functions for various versions ([ecc3e55](https://github.com///commit/ecc3e557bbd383ef733a6fa0bea99a4fec53f376))
+- add data generation and insertion script for student records ([467699c](https://github.com///commit/467699c789cf59bdaefc7c632a778b94540bc141))
+- implement database operations with unittest conditions and synthetic data ([e69eeaa](https://github.com///commit/e69eeaa07f37e8742cf95a42c24b3252c599ab0a))
+- add database connection and query example using psycopg2 ([b1c12a5](https://github.com///commit/b1c12a54b2b62204b2f4683d0087baab5f2eb29b))
+- add CHANGELOG.md for project version history ([d78f52d](https://github.com///commit/d78f52d893eeccde9989f942590b0d3c7bd4e505))
 - add uv file uv.lock ([202b73a](https://github.com///commit/202b73abf4b4934ee3ffc38007a29934476c40a4))
 - add requirements.txt with project dependencies ([1d2f6b9](https://github.com///commit/1d2f6b9c2e0e38671e51be15e3e4ae3718b6036c))
 - add Chinese README.md with project overview, privacy notice, and environment setup instructions ([177542f](https://github.com///commit/177542f0502b2ed7ec9a2e68ae348a179759b023))
