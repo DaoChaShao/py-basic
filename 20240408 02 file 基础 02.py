@@ -9,6 +9,6 @@ with open('file.txt') as f:
 print(f.read())
 '''
 
-with open('20240408 00 file data（测试）.txt', 'r', encoding='utf-8') as file:
+with open('data/20240408 00 file data（测试）.txt', 'r', encoding='utf-8') as file:
     content = file.read()
     print(content)
