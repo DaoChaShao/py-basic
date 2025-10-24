@@ -9,7 +9,7 @@ with open('file.txt') as f:
 print(f.read())
 '''
 
-file = open('20240408 00 file data（测试）.txt', 'r', encoding='utf-8')
+file = open('data/20240408 00 file data（测试）.txt', 'r', encoding='utf-8')
 content = file.read()
 print(content)
 file.close()
